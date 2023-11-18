@@ -1,0 +1,97 @@
+.slide-row{
+  display: flex;
+  /*height: 2000px;*/
+}
+
+.slide-col{
+  /*width: 800px;*/
+  width: 500px;
+  height: 400px;
+  /*position: relative;*/
+}
+
+.user-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+
+.user-img img{
+  height: 100%;
+
+}
+
+.user-text{
+  background: #272c32;
+  border-radius:  10px;
+  width: 520px;
+  min-height: 270px;
+  position: absolute;
+  left: 0;
+  top:  50%;
+  transform: translateY(-50%);
+  color: white;
+  padding: 45px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.user-text-mobile{
+  background: #272c32;
+  border-radius:  10px;
+  color: white;
+  padding: 15px;
+  width: 85%;
+  margin: 0px auto;
+  margin-top: -100px;
+}
+
+
+.container_slider{
+  width: 800px;
+  height: 400px;
+  /*position: absolute;*/
+  position: relative;
+  /*top:  50%;*/
+  left:  50%;
+  transform: translate(-50%, 0);
+}
+
+.indicator{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
+
+
+
+.btn_dot{
+  display: inline-block;
+  height: 10px;
+  width:  10px;
+  margin: 3px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn_dot_m{
+  display: inline-block;
+  height: 10px;
+  width:  10px;
+  margin: 3px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.active_dot {
+  width: 30px;
+}
+
+#t01, #t02{
+  transition: 0.45s;
+}

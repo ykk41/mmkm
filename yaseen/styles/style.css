@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+a { 
+  text-decoration: none;
+  color: inherit; 
+} 
+
+a:hover {
+    color:#ffcc00; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+body {
+  background-image: url('assets/line.html');
+}
+.yellow-button{
+      background:#ffcc00; border-radius: 100px; padding-right: 20px; padding-left: 20px; color: #000; font-size:12px; font-weight: bold; 
+    }
+    .outline-button{
+      border-radius: 100px; border: 1px solid #fff  ; padding-right: 20px; padding-left: 20px; color: #fff; font-size:12px; font-weight: bold; 
+    }
+
+    .outline-button-yellow{
+      border-radius: 100px; border: 1px solid #ffcc00  ; padding-right: 20px; padding-left: 20px; color: #ffcc00; font-size:12px; font-weight: bold; 
+    }
+    
+
+    @font-face {
+      font-family:"akira";
+        src: url("../fonts/Akira-Expanded.otf") format("opentype");
+      }
+
+      @font-face {
+      font-family:"maven";
+        src: url("../fonts/MavenPro.ttf") format("truetype");
+      }
+
+      .yellow-text{
+        color: #ffcc00;
+        font-weight:bold;
+      }
+
+      .yellow-text-light{
+        color: #ffcc00;
+      }
+
+      .bg_container {
+        position: relative;
+        /*text-align: center;*/
+        color: white;
+      }
+
+      .bg_bottom-left {
+        position: absolute;
+        bottom: 5px;
+        left: 3px;
+        background: #000;
+        -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0px 100%);        
+        clip-path: polygon(0 0, 80% 0%, 100% 100%, 0px 100%);
+        padding: 5px;
+        padding-right: 25px;
+        padding-left: 10px;
+        line-height: 1;
+      }
+
+      .bg_top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
+
+      .bg_top-right {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 15px 100%);        
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 20px 100%);
+        padding: 5px;
+        padding-left: 25px;
+        line-height: 1;
+
+  
+      }
+
+      .bg_bottom-right {
+        position: absolute;
+        bottom: 3px;
+        right: 5px;
+        /*background: #ffcc00;*/
+        overflow: hidden;
+        /*-webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0px 100%);        */
+        /*clip-path: polygon(0 0, 100% 0%, 100% 100%, 20px 100%);*/
+        padding: 5px;
+        padding-right: 2px;
+        line-height: 1;
+      }
+
+      .bg_centered {
+        position: absolute;
+        top: 50%;
+        left: -12%;
+        transform: translate(-50%, -50%);
+        transform: rotate(-90deg);
+
+      }
+      
+      .ceobox {
+          padding-top:50px;
+          padding-bottom:50px;
+      }
+     
